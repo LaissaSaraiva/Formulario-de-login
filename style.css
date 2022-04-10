@@ -1,0 +1,14 @@
+
+
+.pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, #b5ddf2, #b43df2);
+}
+
+.container {
+    background: #e9ebec;
+    border-radius: 20px;
+    padding: 30px;
+}
