@@ -6,35 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Login</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
 </head>
-<body class="pagina">
+<body class="container">
     <div >
-        <div class="container">
+        <div class="conteudo">
             <div class="titulo">
                 <h1>Login</h1><br>
             </div>
             
             <div class="formulario">
-                <label for="email">Email</label><br>
-                <input type="email" id="email"><br>
+                <label for="email">Usuário</label><br>
+                <input type="email" id="email" class="entrada" placeholder="Digite seu usuário"><br>
                 <label for="senha">Senha</label><br>
-                <input type="password" id="senha"><br>
-                <a><small>Esqueceu sua senha?</small></a><br>
+                <input type="password" id="senha" class="entrada" placeholder="Digite seua senha"><br>
+                
+                <div class="senha-esquecida">
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>  
             </div>
-            <div >
+
+            <div class="div-botao">
                 <button type="submit" class="botao">Entrar</button><br>
             </div>
 
-            <div>
-                <p>Or Sign Up using</p><br>
+            <div class="entrar">
+                <p>Or Sign Up using</p>
 
-                <a>Facebook</a>
-                <a>Twitter</a>
-                <a>Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
             </div>
-            <div>
+            <div class="cadastro">
                 <p>Não tem uma conta ainda??</p>
-                <a>Criar Conta</a>
+                <a href="#">Criar Conta</a>
             
             </div>
 

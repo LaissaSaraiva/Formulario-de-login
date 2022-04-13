@@ -1,20 +1,56 @@
 
 
-.pagina {
+.container {
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
+    background: linear-gradient(90deg, #86c2e2, #f137d9); 
+    justify-content: center;
+    width: 100%;
     align-items: center;
-    background: linear-gradient(90deg, #b5ddf2, #b43df2); 
+    text-align: center;
+
 }
 
-.container {
+.conteudo {
+    margin-top: 8px;
+    align-items: center;
     background: #e9ebec;
-    border-radius: 20px;
-   
+    border-radius: 10px;
+    width: 500px;
+    box-sizing: border-box;
+    padding: 0 55px;
+      
+}
+
+.formulario {
+    text-align: left;
+
+}
+
+.titulo{
+    font-size: 18px;
+    font-weight: 600;
+
+    padding: 20px 0 10px 0;
+    box-sizing: border-box;
+
+}
+.entrada {
+    width: 100%;
+    padding: 10px;
+    border: none;
+
+}
+.senha-esquecida {
+    text-align: right;
 }
 
 .botao {
-    text-align: center;
+    margin: 40px 0;
+    border: none;
+    background:linear-gradient(90deg, #86c2e2, #f137d9); 
     border-radius: 20px;
-    width: 50%;
+    width: 100%;
+    padding: 15px;
 }
