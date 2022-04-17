@@ -1,7 +1,13 @@
 
+* {
+    margin:0;
+    padding:0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
 
 .container {
-    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     background: linear-gradient(90deg, #86c2e2, #f137d9); 
@@ -9,13 +15,14 @@
     width: 100%;
     align-items: center;
     text-align: center;
+    min-height: 100vh;
 
 }
 
 .conteudo {
     margin-top: 8px;
     align-items: center;
-    background: #e9ebec;
+    background: #FFFFFF;
     border-radius: 10px;
     width: 500px;
     box-sizing: border-box;
@@ -40,9 +47,14 @@
     width: 100%;
     padding: 10px;
     border: none;
-
+    outline: none;
+    border-bottom: 1px solid #b3b6b8;
 }
 
+.entrada:focus{
+    border-bottom: 2px solid #333435;
+
+}
 
 .formulario, .entrar, .cadastro{
     font-weight: 100;
@@ -51,6 +63,7 @@
 
 .senha-esquecida {
     text-align: right;
+    margin: 15px 0;
 }
 
 .botao {
@@ -60,5 +73,57 @@
     border-radius: 20px;
     width: 100%;
     padding: 15px;
-    color: #e9ebec;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-transform: uppercase;
 }
+
+.botao:hover {
+    background:linear-gradient(90deg,#f137d9, #86c2e2); 
+}
+
+.social-media{
+    margin: 15px 0;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:visited {
+    color:#505254;
+}
+
+a:hover {
+    color:#f137d9;
+}
+
+.social-media img {
+    width: 50px;
+}
+
+
+.social-media a img:hover{
+
+    filter: grayscale(1);
+}
+
+.cadastro {
+    margin: 15px 0 40px 0;
+    
+ }
+
+ .criar-conta{
+    padding: 50px 0;
+ }
+
+ @media screen and (max-width: 600px)  {
+    .conteudo {
+        width: 70%;
+    }
+
+    .social-media img {
+        width:40px;
+    }
+ }
